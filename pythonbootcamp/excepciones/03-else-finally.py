@@ -1,0 +1,14 @@
+"""
+Else y Finally
+"""
+try:
+    n1 = int(input("Ingresa numero: "))
+except ValueError as e:
+    print("Ingrese un valor numerico")
+except NameError as e:
+    print("ocurrio un error")
+else:
+    print("No ocurrio ningun error")
+finally:
+    print("Se ejecuta siempre")
+
