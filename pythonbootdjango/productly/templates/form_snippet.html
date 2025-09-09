@@ -1,0 +1,17 @@
+{% load add_attr %}
+{% for field in form %}
+<div class="field">
+
+    {{ field.label_tag }}
+    {% if field.errors %}
+        {{ field|add_attr:"class:is-danger" }}
+    {% else %}
+        {{ field }}
+    {% endif %}
+    <p class="help is-danger">
+    {% for error in field.errors %}
+        {{ error }}
+    {% endfor %}
+    </p>
+</div>
+{% endfor %}
