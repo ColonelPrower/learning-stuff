@@ -1,5 +1,5 @@
 # Ejercicios de automatizacion con Pandas y manejo de archivos de Word y excel
-Este lo tome de un tutorial de youtube 
+Este lo tome de un tutorial de youtube de [Código Espinoza - Automatiza tu Vida](https://www.youtube.com/watch?v=vjACmOQe6yQ)
 
 Descripcion de los archivos
 * app.py Genera un documento word con un parrafo sencillo
